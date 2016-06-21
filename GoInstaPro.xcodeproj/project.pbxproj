@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187924F51D199DF8001F2D92 /* ImagesVC+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187924F41D199DF8001F2D92 /* ImagesVC+DataSource.swift */; };
+		187924F71D19A0C5001F2D92 /* ImagesVC+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187924F61D19A0C5001F2D92 /* ImagesVC+Delegate.swift */; };
+		187924F91D19A157001F2D92 /* ImagesVC+CollectionFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187924F81D19A157001F2D92 /* ImagesVC+CollectionFlowLayout.swift */; };
+		18CFB9971D18652800A16D23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CFB9961D18652800A16D23 /* AppDelegate.swift */; };
+		18CFB9991D18652800A16D23 /* ImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CFB9981D18652800A16D23 /* ImagesViewController.swift */; };
+		18CFB99C1D18652800A16D23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CFB99A1D18652800A16D23 /* Main.storyboard */; };
+		18CFB99F1D18652800A16D23 /* GoInstaPro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18CFB99D1D18652800A16D23 /* GoInstaPro.xcdatamodeld */; };
+		18CFB9A11D18652800A16D23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CFB9A01D18652800A16D23 /* Assets.xcassets */; };
+		18CFB9A41D18652800A16D23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CFB9A21D18652800A16D23 /* LaunchScreen.storyboard */; };
+		18CFB9AF1D18652800A16D23 /* GoInstaProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CFB9AE1D18652800A16D23 /* GoInstaProTests.swift */; };
+		18CFB9BA1D18652800A16D23 /* GoInstaProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CFB9B91D18652800A16D23 /* GoInstaProUITests.swift */; };
+		18CFB9C81D18FC6300A16D23 /* ImageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CFB9C71D18FC6300A16D23 /* ImageItem.swift */; };
+		18CFB9CD1D1911F800A16D23 /* GoProNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CFB9CC1D1911F800A16D23 /* GoProNetworking.swift */; };
+		18CFB9D01D191D3700A16D23 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CFB9CF1D191D3700A16D23 /* ImageCollectionViewCell.swift */; };
+		43BE8473892CD88DE3D0328F /* Pods_GoInstaProTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94233533CEDD6BBA7D03770 /* Pods_GoInstaProTests.framework */; };
+		4F67E56CC33DBDB051656D0D /* Pods_GoInstaProUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783E5F1D757B934A88E8F578 /* Pods_GoInstaProUITests.framework */; };
+		B895866C23DC61BAF011BF7D /* Pods_GoInstaPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591E5D2774F9E637CEAC0A26 /* Pods_GoInstaPro.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18CFB9AB1D18652800A16D23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CFB98B1D18652800A16D23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CFB9921D18652800A16D23;
+			remoteInfo = GoInstaPro;
+		};
+		18CFB9B61D18652800A16D23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CFB98B1D18652800A16D23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CFB9921D18652800A16D23;
+			remoteInfo = GoInstaPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		187924F41D199DF8001F2D92 /* ImagesVC+DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImagesVC+DataSource.swift"; sourceTree = "<group>"; };
+		187924F61D19A0C5001F2D92 /* ImagesVC+Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImagesVC+Delegate.swift"; sourceTree = "<group>"; };
+		187924F81D19A157001F2D92 /* ImagesVC+CollectionFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImagesVC+CollectionFlowLayout.swift"; sourceTree = "<group>"; };
+		18CFB9931D18652800A16D23 /* GoInstaPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoInstaPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CFB9961D18652800A16D23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18CFB9981D18652800A16D23 /* ImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesViewController.swift; sourceTree = "<group>"; };
+		18CFB99B1D18652800A16D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18CFB99E1D18652800A16D23 /* GoInstaPro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoInstaPro.xcdatamodel; sourceTree = "<group>"; };
+		18CFB9A01D18652800A16D23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18CFB9A31D18652800A16D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18CFB9A51D18652800A16D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CFB9AA1D18652800A16D23 /* GoInstaProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoInstaProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CFB9AE1D18652800A16D23 /* GoInstaProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoInstaProTests.swift; sourceTree = "<group>"; };
+		18CFB9B01D18652800A16D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CFB9B51D18652800A16D23 /* GoInstaProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoInstaProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CFB9B91D18652800A16D23 /* GoInstaProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoInstaProUITests.swift; sourceTree = "<group>"; };
+		18CFB9BB1D18652800A16D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CFB9C71D18FC6300A16D23 /* ImageItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageItem.swift; sourceTree = "<group>"; };
+		18CFB9CC1D1911F800A16D23 /* GoProNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoProNetworking.swift; sourceTree = "<group>"; };
+		18CFB9CF1D191D3700A16D23 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		591E5D2774F9E637CEAC0A26 /* Pods_GoInstaPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoInstaPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60024D3623A2681A7EE72FCC /* Pods-GoInstaPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoInstaPro.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoInstaPro/Pods-GoInstaPro.release.xcconfig"; sourceTree = "<group>"; };
+		626CA3B361F6F768D0DED62C /* Pods-GoInstaProTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoInstaProTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoInstaProTests/Pods-GoInstaProTests.release.xcconfig"; sourceTree = "<group>"; };
+		723A63E6FE7239BDEEB15B3F /* Pods-GoInstaProTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoInstaProTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoInstaProTests/Pods-GoInstaProTests.debug.xcconfig"; sourceTree = "<group>"; };
+		783E5F1D757B934A88E8F578 /* Pods_GoInstaProUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoInstaProUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DCBEA7909798811766C44D2 /* Pods-GoInstaProUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoInstaProUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoInstaProUITests/Pods-GoInstaProUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B1162306F97C21BC9A515594 /* Pods-GoInstaPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoInstaPro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoInstaPro/Pods-GoInstaPro.debug.xcconfig"; sourceTree = "<group>"; };
+		E94233533CEDD6BBA7D03770 /* Pods_GoInstaProTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoInstaProTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A93C8F1603D32E6FD716A2 /* Pods-GoInstaProUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoInstaProUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoInstaProUITests/Pods-GoInstaProUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CFB9901D18652800A16D23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B895866C23DC61BAF011BF7D /* Pods_GoInstaPro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CFB9A71D18652800A16D23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43BE8473892CD88DE3D0328F /* Pods_GoInstaProTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CFB9B21D18652800A16D23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F67E56CC33DBDB051656D0D /* Pods_GoInstaProUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187924FA1D19A1DD001F2D92 /* ImagesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18CFB9981D18652800A16D23 /* ImagesViewController.swift */,
+				187924F41D199DF8001F2D92 /* ImagesVC+DataSource.swift */,
+				187924F61D19A0C5001F2D92 /* ImagesVC+Delegate.swift */,
+				187924F81D19A157001F2D92 /* ImagesVC+CollectionFlowLayout.swift */,
+			);
+			name = ImagesViewController;
+			sourceTree = "<group>";
+		};
+		18CFB98A1D18652800A16D23 = {
+			isa = PBXGroup;
+			children = (
+				18CFB9951D18652800A16D23 /* GoInstaPro */,
+				18CFB9AD1D18652800A16D23 /* GoInstaProTests */,
+				18CFB9B81D18652800A16D23 /* GoInstaProUITests */,
+				18CFB9941D18652800A16D23 /* Products */,
+				7CC434CE97E8BB4299AFB8B8 /* Pods */,
+				827D5C400B05A64412961D4D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18CFB9941D18652800A16D23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CFB9931D18652800A16D23 /* GoInstaPro.app */,
+				18CFB9AA1D18652800A16D23 /* GoInstaProTests.xctest */,
+				18CFB9B51D18652800A16D23 /* GoInstaProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CFB9951D18652800A16D23 /* GoInstaPro */ = {
+			isa = PBXGroup;
+			children = (
+				18CFB9961D18652800A16D23 /* AppDelegate.swift */,
+				18CFB9CB1D19117500A16D23 /* ViewControllers */,
+				18CFB9CA1D19115C00A16D23 /* Model */,
+				18CFB9C91D19115100A16D23 /* Networking */,
+				18CFB9CE1D191CE900A16D23 /* Cells */,
+				18CFB99A1D18652800A16D23 /* Main.storyboard */,
+				18CFB9A21D18652800A16D23 /* LaunchScreen.storyboard */,
+				18CFB9A01D18652800A16D23 /* Assets.xcassets */,
+				18CFB9A51D18652800A16D23 /* Info.plist */,
+				18CFB99D1D18652800A16D23 /* GoInstaPro.xcdatamodeld */,
+			);
+			path = GoInstaPro;
+			sourceTree = "<group>";
+		};
+		18CFB9AD1D18652800A16D23 /* GoInstaProTests */ = {
+			isa = PBXGroup;
+			children = (
+				18CFB9AE1D18652800A16D23 /* GoInstaProTests.swift */,
+				18CFB9B01D18652800A16D23 /* Info.plist */,
+			);
+			path = GoInstaProTests;
+			sourceTree = "<group>";
+		};
+		18CFB9B81D18652800A16D23 /* GoInstaProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18CFB9B91D18652800A16D23 /* GoInstaProUITests.swift */,
+				18CFB9BB1D18652800A16D23 /* Info.plist */,
+			);
+			path = GoInstaProUITests;
+			sourceTree = "<group>";
+		};
+		18CFB9C91D19115100A16D23 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				18CFB9CC1D1911F800A16D23 /* GoProNetworking.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		18CFB9CA1D19115C00A16D23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18CFB9C71D18FC6300A16D23 /* ImageItem.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		18CFB9CB1D19117500A16D23 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				187924FA1D19A1DD001F2D92 /* ImagesViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		18CFB9CE1D191CE900A16D23 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				18CFB9CF1D191D3700A16D23 /* ImageCollectionViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		7CC434CE97E8BB4299AFB8B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1162306F97C21BC9A515594 /* Pods-GoInstaPro.debug.xcconfig */,
+				60024D3623A2681A7EE72FCC /* Pods-GoInstaPro.release.xcconfig */,
+				723A63E6FE7239BDEEB15B3F /* Pods-GoInstaProTests.debug.xcconfig */,
+				626CA3B361F6F768D0DED62C /* Pods-GoInstaProTests.release.xcconfig */,
+				F6A93C8F1603D32E6FD716A2 /* Pods-GoInstaProUITests.debug.xcconfig */,
+				7DCBEA7909798811766C44D2 /* Pods-GoInstaProUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		827D5C400B05A64412961D4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				591E5D2774F9E637CEAC0A26 /* Pods_GoInstaPro.framework */,
+				E94233533CEDD6BBA7D03770 /* Pods_GoInstaProTests.framework */,
+				783E5F1D757B934A88E8F578 /* Pods_GoInstaProUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CFB9921D18652800A16D23 /* GoInstaPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CFB9BE1D18652800A16D23 /* Build configuration list for PBXNativeTarget "GoInstaPro" */;
+			buildPhases = (
+				5C4F70482E0C6E6216EFB4E9 /* [CP] Check Pods Manifest.lock */,
+				18CFB98F1D18652800A16D23 /* Sources */,
+				18CFB9901D18652800A16D23 /* Frameworks */,
+				18CFB9911D18652800A16D23 /* Resources */,
+				E0F4D6742E9D20656AEA2FEB /* [CP] Embed Pods Frameworks */,
+				D9373BDA448988FEA78B436D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoInstaPro;
+			productName = GoInstaPro;
+			productReference = 18CFB9931D18652800A16D23 /* GoInstaPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18CFB9A91D18652800A16D23 /* GoInstaProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CFB9C11D18652800A16D23 /* Build configuration list for PBXNativeTarget "GoInstaProTests" */;
+			buildPhases = (
+				AE72580438680AB63AA37909 /* [CP] Check Pods Manifest.lock */,
+				18CFB9A61D18652800A16D23 /* Sources */,
+				18CFB9A71D18652800A16D23 /* Frameworks */,
+				18CFB9A81D18652800A16D23 /* Resources */,
+				C62770885C1DB0AD567A55FC /* [CP] Embed Pods Frameworks */,
+				8097DDDB91B10A24ABDB6E75 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CFB9AC1D18652800A16D23 /* PBXTargetDependency */,
+			);
+			name = GoInstaProTests;
+			productName = GoInstaProTests;
+			productReference = 18CFB9AA1D18652800A16D23 /* GoInstaProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18CFB9B41D18652800A16D23 /* GoInstaProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CFB9C41D18652800A16D23 /* Build configuration list for PBXNativeTarget "GoInstaProUITests" */;
+			buildPhases = (
+				1EA08444D58EF4F0C1BAED4B /* [CP] Check Pods Manifest.lock */,
+				18CFB9B11D18652800A16D23 /* Sources */,
+				18CFB9B21D18652800A16D23 /* Frameworks */,
+				18CFB9B31D18652800A16D23 /* Resources */,
+				F91979C1DAADD5B30CDE46CE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CFB9B71D18652800A16D23 /* PBXTargetDependency */,
+			);
+			name = GoInstaProUITests;
+			productName = GoInstaProUITests;
+			productReference = 18CFB9B51D18652800A16D23 /* GoInstaProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CFB98B1D18652800A16D23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Wade Sellers";
+				TargetAttributes = {
+					18CFB9921D18652800A16D23 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GV76VP4G8V;
+					};
+					18CFB9A91D18652800A16D23 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 18CFB9921D18652800A16D23;
+					};
+					18CFB9B41D18652800A16D23 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 18CFB9921D18652800A16D23;
+					};
+				};
+			};
+			buildConfigurationList = 18CFB98E1D18652800A16D23 /* Build configuration list for PBXProject "GoInstaPro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18CFB98A1D18652800A16D23;
+			productRefGroup = 18CFB9941D18652800A16D23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CFB9921D18652800A16D23 /* GoInstaPro */,
+				18CFB9A91D18652800A16D23 /* GoInstaProTests */,
+				18CFB9B41D18652800A16D23 /* GoInstaProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18CFB9911D18652800A16D23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CFB9A41D18652800A16D23 /* LaunchScreen.storyboard in Resources */,
+				18CFB9A11D18652800A16D23 /* Assets.xcassets in Resources */,
+				18CFB99C1D18652800A16D23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CFB9A81D18652800A16D23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CFB9B31D18652800A16D23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EA08444D58EF4F0C1BAED4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5C4F70482E0C6E6216EFB4E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8097DDDB91B10A24ABDB6E75 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoInstaProTests/Pods-GoInstaProTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE72580438680AB63AA37909 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C62770885C1DB0AD567A55FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoInstaProTests/Pods-GoInstaProTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9373BDA448988FEA78B436D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoInstaPro/Pods-GoInstaPro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0F4D6742E9D20656AEA2FEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoInstaPro/Pods-GoInstaPro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F91979C1DAADD5B30CDE46CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoInstaProUITests/Pods-GoInstaProUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CFB98F1D18652800A16D23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CFB9D01D191D3700A16D23 /* ImageCollectionViewCell.swift in Sources */,
+				18CFB9C81D18FC6300A16D23 /* ImageItem.swift in Sources */,
+				187924F91D19A157001F2D92 /* ImagesVC+CollectionFlowLayout.swift in Sources */,
+				187924F51D199DF8001F2D92 /* ImagesVC+DataSource.swift in Sources */,
+				18CFB9991D18652800A16D23 /* ImagesViewController.swift in Sources */,
+				18CFB9CD1D1911F800A16D23 /* GoProNetworking.swift in Sources */,
+				18CFB9971D18652800A16D23 /* AppDelegate.swift in Sources */,
+				18CFB99F1D18652800A16D23 /* GoInstaPro.xcdatamodeld in Sources */,
+				187924F71D19A0C5001F2D92 /* ImagesVC+Delegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CFB9A61D18652800A16D23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CFB9AF1D18652800A16D23 /* GoInstaProTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CFB9B11D18652800A16D23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CFB9BA1D18652800A16D23 /* GoInstaProUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18CFB9AC1D18652800A16D23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CFB9921D18652800A16D23 /* GoInstaPro */;
+			targetProxy = 18CFB9AB1D18652800A16D23 /* PBXContainerItemProxy */;
+		};
+		18CFB9B71D18652800A16D23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CFB9921D18652800A16D23 /* GoInstaPro */;
+			targetProxy = 18CFB9B61D18652800A16D23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18CFB99A1D18652800A16D23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CFB99B1D18652800A16D23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18CFB9A21D18652800A16D23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CFB9A31D18652800A16D23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18CFB9BC1D18652800A16D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18CFB9BD1D18652800A16D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18CFB9BF1D18652800A16D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1162306F97C21BC9A515594 /* Pods-GoInstaPro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = GoInstaPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WadeSellers.GoInstaPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18CFB9C01D18652800A16D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60024D3623A2681A7EE72FCC /* Pods-GoInstaPro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = GoInstaPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WadeSellers.GoInstaPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18CFB9C21D18652800A16D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 723A63E6FE7239BDEEB15B3F /* Pods-GoInstaProTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoInstaProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WadeSellers.GoInstaProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoInstaPro.app/GoInstaPro";
+			};
+			name = Debug;
+		};
+		18CFB9C31D18652800A16D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 626CA3B361F6F768D0DED62C /* Pods-GoInstaProTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoInstaProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WadeSellers.GoInstaProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoInstaPro.app/GoInstaPro";
+			};
+			name = Release;
+		};
+		18CFB9C51D18652800A16D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6A93C8F1603D32E6FD716A2 /* Pods-GoInstaProUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = GoInstaProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WadeSellers.GoInstaProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoInstaPro;
+			};
+			name = Debug;
+		};
+		18CFB9C61D18652800A16D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DCBEA7909798811766C44D2 /* Pods-GoInstaProUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = GoInstaProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WadeSellers.GoInstaProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoInstaPro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CFB98E1D18652800A16D23 /* Build configuration list for PBXProject "GoInstaPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CFB9BC1D18652800A16D23 /* Debug */,
+				18CFB9BD1D18652800A16D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CFB9BE1D18652800A16D23 /* Build configuration list for PBXNativeTarget "GoInstaPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CFB9BF1D18652800A16D23 /* Debug */,
+				18CFB9C01D18652800A16D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CFB9C11D18652800A16D23 /* Build configuration list for PBXNativeTarget "GoInstaProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CFB9C21D18652800A16D23 /* Debug */,
+				18CFB9C31D18652800A16D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CFB9C41D18652800A16D23 /* Build configuration list for PBXNativeTarget "GoInstaProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CFB9C51D18652800A16D23 /* Debug */,
+				18CFB9C61D18652800A16D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18CFB99D1D18652800A16D23 /* GoInstaPro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18CFB99E1D18652800A16D23 /* GoInstaPro.xcdatamodel */,
+			);
+			currentVersion = 18CFB99E1D18652800A16D23 /* GoInstaPro.xcdatamodel */;
+			path = GoInstaPro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18CFB98B1D18652800A16D23 /* Project object */;
+}
